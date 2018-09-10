@@ -1,3 +1,112 @@
 html {
   box-sizing: border-box;
 }
+
+#container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  padding-left: 1rem;
+}
+
+.title > h3 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+#main {
+  display: flex;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  width: 25%;
+}
+
+.input-container > * {
+  margin-bottom: 1rem;
+}
+
+.charts-container {
+  border-left: 1px solid black;
+}
+
+.title {
+  border-bottom: 1px solid black;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 300;
+  border-bottom: 1px solid black;
+}
+
+.slider-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+}
+
+.slider-container > input {
+  margin-right: 0.5rem;
+}
+
+.slider-input > label,
+.slider-input > input {
+  margin-right: 0.5rem;
+}
+
+.slider-text {
+  padding: 0.3rem;
+  border: 1px solid black;
+}
+
+#med-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.separator {
+  border-bottom: 2px solid black;
+  width: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.question {
+  display: inline-block;
+  max-width: 13rem;
+  vertical-align: text-top;
+}
+
+.charts-container {
+  padding: 1rem;
+  position: relative;
+  width: 65%;
+}
+
+#submit-data {
+  margin-top: 2rem;
+  border: none;
+  font-size: 1.2rem;
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+}
+
+#submit-data:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
